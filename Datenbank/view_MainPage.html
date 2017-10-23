@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<?php session_start();
+/*
+	$username ="user";
+	$password = "password";
+		
+		
+if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] ==true) {
+	header (Location: success.php");
+}
+
+if (isset($_POST['username']) && isset($_POST['password'])) {
+	if ($_POST['username']) == $username && $_POST['password'] == $password) {
+	
+		$_SESSION['loggedin'] = true;
+		header("Location: success.php"); }
+} 
+
+*/
+
+	if (isset($_POST['Submit1'])) {
+	header (Location: success.php");
+}
+
+
+?>
+
+<html lang= "de">
+<head>
+	<meta charset= "utf-8">
+	<title>Kochdatenbank</title>
+</head>
+
+<body>
+      <header> <!--Logo--></header>
+      <main>
+      <h1>Kochdatenbank</h1>
+	
+		<p><button type="button">Login</button>
+	   <button type="button">Registrieren</button></p>
+	   <p> </p> 
+	   <p> <input id="vname" name="vname"> <button type="button">Suche</button></p>
+			
+		   <p> zurück <a href=view_index.php>Home</a></p>
+		 
+		<br/><br/>
+		<br/><br/>
+		   <form method="post" action="index.php">
+		   Username:<br/>
+		   <input type="text" name="username"><br/>
+		   Passwort:<br/>
+			<input type="password" name="password"><br/>
+			<input type="submit" name="Login">
+			</form>
+		
+      <p> zurück <a href=view_index.html>Zufälliges Rezept</a></p>
+      
+      </main>
+</body>
+</html>
