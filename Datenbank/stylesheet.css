@@ -1,0 +1,31 @@
+/*css colour stuff  */
+body {
+/*background-color: Blue ;*/
+background-image: url("fjfjf.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+
+font-family: "Comic Sans MS", "Comic Sans";
+}
+
+.P{background-color: Red;
+}
+
+.Q{background-color: Green;
+margin: auto;
+width: 25%;
+padding-left: 200px;
+}
+
+.rezepte{background-color: Purple;
+width: 40%;
+height: auto;
+padding-bottom: 25px;
+text-align: center;	
+border-radius: 20px;
+border: 5px solid pink;
+}
+
+#button{
+padding-top: 40px;	
+}

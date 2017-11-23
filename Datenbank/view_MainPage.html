@@ -23,25 +23,33 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 	header (Location: success.php");
 }
 
+
+
+
+$db = mysqli_connect("localhost", "Benutzername", "Passwort", "Datenbankname");
 */
+
 ?>
 
 <html lang= "de">
 <head>
 	<meta charset= "utf-8">
 	<title>Kochdatenbank</title>
+	<link rel="stylesheet" href=stylesheet.css>
 </head>
 
 <body>
       <header> <!--Logo--></header>
       <main>
+	  <div class=P> 
       <h1>Kochdatenbank</h1>
-	
-		<p> <a class="button" href="view_index.html">Login</a>
+
+	</div>
+		<div class=Q><p> <a class="button" href="view_index.html">Login</a>
 			<a class="button" href="view_register.html">Registrieren</a>
 	   <p> </p> 
 	   <p> <input id="vname" name="vname"> <button type="button">Suche</button></p>
-			
+			</div>
 		   
 		 
 		<br/><br/>
@@ -49,7 +57,12 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 		
 		
       <p> zurück <a href=view_index.html>Zufälliges Rezept</a></p>
-      
+      <div class=rezepte>
+	  
+	  <img src= button-pic.jpg id=button width=300 height=150>  
+	  <br/>rezept
+	  </div>
+	  </div>
       </main>
 </body>
 </html>
