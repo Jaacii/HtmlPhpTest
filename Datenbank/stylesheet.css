@@ -26,7 +26,10 @@ border-radius: 20px;
 border: 5px solid pink;
 display: inline-block;
 }
-
+table td th{			/*tabelle */
+	border-collapse:  collapse;
+	
+}
 #button{										/* id referenz*/
 padding-top: 40px;	
 }
