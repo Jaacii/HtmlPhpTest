@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <?php session_start();
+<include Formulare/index.php>
 /*
 	$username ="user";
 	$password = "password";
@@ -39,12 +40,18 @@ $db = mysqli_connect("localhost", "Benutzername", "Passwort", "Datenbankname");
 </head>
 
 <body>
+
       <header> <!--Logo--></header>
       <main>
 	  <div class=P> 
       <h1>Kochdatenbank</h1>
 
 	</div>
+	 <div class=sidebar>
+	  
+	  <img src= button-pic.jpg id=button width=300 height=150>  
+	  <br/>rezept
+	  </div>
 		<div class=Q><p> <a class="button" href="view_index.html">Login</a>
 			<a class="button" href="view_register.html">Registrieren</a>
 	   <p> </p> 
@@ -57,12 +64,30 @@ $db = mysqli_connect("localhost", "Benutzername", "Passwort", "Datenbankname");
 		
 		
       <p> zurück <a href=view_index.html>Zufälliges Rezept</a></p>
+	  
       <div class=rezepte>
 	  
 	  <img src= button-pic.jpg id=button width=300 height=150>  
 	  <br/>rezept
 	  </div>
+	  <div class=rezepte2>
+	  
+	  <img src= button-pic.jpg id=button width=300 height=150>  
+	  <br/>rezept
 	  </div>
+	  <br/><br/><br/><br/><br/><br/>
+	  </div>
+	  <div class=rezepte>
+	  
+	  <img src= button-pic.jpg id=button width=300 height=150>  
+	  <br/>rezept
+	  </div><div class=rezepte>
+	  
+	  <img src= button-pic.jpg id=button width=300 height=150>  
+	  <br/>rezept
+	  </div>
+	 
+	  <aside> hallo </aside>
       </main>
 </body>
 </html>
