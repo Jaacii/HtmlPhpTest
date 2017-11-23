@@ -1,9 +1,9 @@
 /*css colour stuff  */
 body {
 /*background-color: Blue ;*/
-background-image: url("fjfjf.jpg");
-background-repeat: no-repeat;
-background-size: 100%;
+background-image: url("fjfjf.jpg");		/* body bei esamt hintergrund. */
+background-repeat: no-repeat;			/* repeat */
+background-size: 100%;					/* bild scale*/
 
 font-family: "Comic Sans MS", "Comic Sans";
 }
@@ -27,26 +27,26 @@ border: 5px solid pink;
 display: inline-block;
 }
 
-#button{
+#button{										/* id referenz*/
 padding-top: 40px;	
 }
 
-.rezepte2{background-color: Purple;
+.rezepte2{background-color: Purple;				/*.x  klasse */
 width: 40%;
-height: auto;
-padding-bottom: 25px;
-text-align: center;	
-border-radius: 20px;
-border: 5px solid pink;
+height: auto;					/* auto automatisch*/	
+padding-bottom: 25px;			/*padding top right bottom left */
+text-align: center;				/* text in mitte*/
+border-radius: 20px;			/* umrandungpx*/
+border: 5px solid pink;			/*umrandungfarbe */
 display: inline-block;
 }
 
 .sidebar{
-	width: 16%;
-	height: 100%;
-	position: fixed;
-	display:  inline-block;
-	/*float: right;*/
-	right: 0;
-	background-color: yellow;
+	width: 16%;					/*breite */
+	height: 100%;				/*höhe */
+	position: fixed;			/*absolute, static, fixed etc */
+	display:  inline-block;		/*positioniert sich nebeneinander wenn möglich */
+	/*float: right;*/			/*rechts hinsetzen*/
+	right: 0;					/*rechts hinsetzen*/
+	background-color: yellow;	/*background */
 }
